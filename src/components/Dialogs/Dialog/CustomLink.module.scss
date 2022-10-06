@@ -1,0 +1,25 @@
+.customLink {
+  color: rgb(87, 87, 190);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  padding: 8px;
+  line-height: 22px;
+
+
+  &_active {
+    padding: 8px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    color: rgb(7, 7, 185);
+    font-size: 22px;
+    line-height: 22px;
+    background-color: rgba(237, 239, 245, 0.82);
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}

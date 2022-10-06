@@ -1,0 +1,25 @@
+.header {
+    grid-area: header;
+    background-color: rgba(226, 216, 228, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 80px;
+    margin-bottom: 5px;
+
+    img {
+        width: 60px;
+    }
+
+    &__title {
+        padding-top: 10px;
+        font-size: 28px;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
